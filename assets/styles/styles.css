@@ -1,0 +1,405 @@
+/* Desktop main */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgba(243, 245, 252, 1);
+    box-sizing: border-box;
+}
+
+.layout {
+    display: flex;
+    flex-direction: row;
+    /* background: rgba(243, 245, 252, 1); */
+    /* border: 1px solid red; */
+}
+
+.first-layout {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-alura {
+    width: 120px;
+    height: 48px;
+    margin-top: 40px;
+    margin-left: 40px;
+    gap: 40px;
+}
+
+.first-layout-text {
+    width: 680px;
+    height: 288px; /* 288px ou 48px */
+    margin-top: 80px; /* 168px */
+    margin-left: 240px;
+
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: rgba(10, 56, 113, 1);
+
+    border: none;
+    background-color: rgba(243, 245, 252, 1);
+    /* // On click
+    // Navigate to: "Decodificador - 2 Desktop";
+    // Animate: Instant;
+    animation-duration: 0ms;
+    */
+    outline: none;
+}
+
+.first-layout-rule {
+    display: flex;
+    flex-direction: row;
+
+    width: 252px;
+    height: 18px;
+    margin-top: 634px; /* 851px */
+    margin-left: 240px;
+    gap: 8px;
+}
+
+.first-layout-rule img {
+    width: 16px;
+    height: 16px;
+}
+
+.first-layout-rule p {
+    width: 228px;
+    height: 18px;
+    opacity: 0.8px;
+
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: rgba(73, 80, 87, 1);
+}
+
+.buttons {
+    width: 680px;
+    height: 67px;
+    margin-top: 15px;/* 885px; */
+    margin-left: 240px;
+    gap: 24px;
+}
+
+.buttons-c {
+    width: 328px;
+    height: 67px;
+    padding: 24px;
+    border-radius: 24px;
+    gap: 8px;
+
+    background: rgba(10, 56, 113, 1);
+}
+
+.buttons-c p {
+    width: 280px;
+    height: 19px;
+
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    color: rgba(255, 255, 255, 1);
+}
+
+.buttons-d {
+    width: 328px;
+    height: 67px;
+    padding: 24px;
+    border-radius: 24px;
+    border: 1px solid rgba(10, 56, 113, 1);
+    gap: 8px;
+
+    /*
+    Color="Light blue"; e State="Normal";
+    */
+
+    background-color: linear-gradient(0deg, #0A3871, #0A3871),
+    linear-gradient(0deg, #D8DFE8, #D8DFE8);
+}
+
+/* parte lateral */
+.second-layout {
+    width: 400px;
+    height: 944px;
+    margin-top: 40px;
+    margin-left: 80px; /* 1000px; */
+    border-radius: 32px;
+
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
+
+#second-layout-cripto {
+    width: 336px;
+    height: 781px;
+    margin-top: 32px; /* 72px; */
+    margin-left: 32px; /* 1032px; */
+
+    display: none;
+
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: rgba(73, 80, 87, 1);
+    border: none;
+    outline: none;
+}
+
+#btncopy {
+    /*
+    Color="Light blue"; State="Normal";
+    estava com background com a cor que esta no border e um border igual ao que está
+    */
+    width: 336px;
+    height: 67px;
+    margin-top: 27px; /* 885px; */
+    margin-left: 32px; /* 1032px; */
+    padding: 24px;
+    border-radius: 24px;
+    border: 1px solid rgba(10, 56, 113, 1);
+    gap: 8px;
+
+    display: none;
+}
+
+.second-layout-img {
+    width: 336px;
+    height: 304px;
+    margin-top: 208px; /* 283px; */
+    margin-left: 32px; /* 1032px; */
+}
+
+.second-layout-message {
+    width: 336px;
+    height: 122px;
+    margin-top: 69px; /* 619px; */
+    margin-left: 32px; /* 1032px; */
+    gap: 16px;
+}
+
+.second-layout-m1 {
+    width: 336px;
+    height: 58px;
+
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    color: rgba(52, 58, 64, 1);
+}
+
+.second-layout-m2 {
+    width: 336px;
+    height: 48px;
+
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    color: rgba(73, 80, 87, 1);
+}
+
+/* footer */
+.rodape {
+    text-align: center;
+    padding: 24px;
+
+    font-size: 24px;
+    color: lightskyblue;
+    font-weight: bold;
+}
+
+/* Tablet e Mobile */
+@media (max-width: 375px) {
+    .layout {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo-alura {
+        width: 32px;
+        height: 48px;
+        margin-top: 24px;
+        margin-left: 12px;
+        /*
+            width: 375px;
+            height: 96px;
+            margin-top: 5px;
+            margin-left: -118px;
+
+            width: 32px
+            height: 48px
+            top: 24px
+            left: 16px
+        */
+    }
+
+    .first-layout-text {
+        width: 343px;
+        height: 624px;
+        margin-top: 152px;
+        margin-left: 16px;
+    }
+
+    .first-layout-rule {
+        width: 252px;
+        height: 18px;
+        margin-top: -260px; /* 451px; */
+        margin-left: 16px;
+        gap: 8px;
+    }
+
+    .buttons {
+        width: 343px;
+        height: 158px;
+        margin-top: 14px; /* 485px; */
+        margin-left: 16px;
+        gap: 24px;
+    }
+
+    .buttons-d {
+        margin-top: 20px;
+    }
+
+    .second-layout {
+        width: 271px; /* 327px */
+        height: 186px; /* 595px */
+        margin-top: 64px; /* 707px */
+        margin-left: 16px;
+        padding: 32px;
+        border-radius: 32px;
+        gap: 32px;
+    }
+
+    .second-layout-img {
+        display: none;
+    }
+
+    .second-layout-message {
+        width: 263px;
+        height: 122px;
+        margin-top: 25px;
+        margin-left: 0px;
+        gap: 16px;
+    }
+
+    .second-layout-m1 {
+        width: 263px;
+        height: 58px;
+    }
+
+    .second-layout-m2 {
+        width: 263px;
+        height: 48px;
+        margin-top: 20px;
+    }
+
+    #btncopy {
+        width: 279px;
+        height: 67px;
+        padding: 24px;
+        border-radius: 24px;
+        border: 1px;
+        gap: 8px;
+
+        display: none;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 769px) {
+    .layout {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo-alura {
+        width: 31px;
+        height: 51px;
+        margin-top: 73px;
+        margin-left: 40px;
+    }
+
+    .first-layout-text {
+        width: 688px;
+        height: 288px; /* 48px */ 
+        margin-top: 110px; /* 240px */
+        margin-left: 40px;
+    }
+
+    .first-layout-rule {
+        width: 252px;
+        height: 18px;
+        margin-top: 556px; /* 836px; */
+        margin-left: 40px;
+        gap: 8px;
+    }
+
+    .buttons {
+        width: 688px;
+        height: 67px;
+        margin-top: 34px; /* 870px; */
+        margin-left: 40px;
+        gap: 24px;
+    }
+
+    .second-layout {
+        width: 616px; /* 688px */
+        height: 133px; /* 133px */
+        margin-top: 130px; /* 1001px; */
+        margin-left: 40px;
+        padding: 32px;
+        border-radius: 32px;
+        gap: 32px;
+    }
+
+    .second-layout-img {
+        display: none;
+    }
+
+    .second-layout-message {
+        width: 624px;
+        height: 69px;
+        margin-top: 32px;
+        gap: 16px;
+    }
+
+    .second-layout-m1 {
+        width: 624px;
+        height: 29px;
+    }
+
+    .second-layout-m2 {
+        width: 624px;
+        height: 24px;
+        margin-top: 15px;
+    }
+}

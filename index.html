@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Spirit 01</title>
+    <link rel="stylesheet" href="./assets/styles/styles.css">
+</head>
+
+<body>
+    <header></header>
+
+    <main class="layout">
+        <section class="first-layout">
+            <img class="logo-alura" src="./assets/images/Logo.png" alt="Logo da alura">
+
+            <textarea class="first-layout-text" wrap="hard"  id="iptdata" placeholder="Digite seu texto"></textarea>
+
+            <div class="first-layout-rule">
+                <img src="./assets/images/bi_exclamation-circle-fill.png" alt="exclamação">
+                <p>Apenas letras minúsculas e sem acento.</p>
+            </div>
+
+            <div class="buttons">
+                <button class="buttons-c" onclick="criptografar()">
+                    <p>Criptografar</p>
+                </button>
+                <button class="buttons-d" onclick="descriptografar()">Descriptografar</button>
+            </div>
+        </section>
+        <section class="second-layout" id="sltablet">
+            <textarea id="second-layout-cripto"></textarea>
+
+            <img class="second-layout-img" id="slimg" src="./assets//images/High quality products 1 1.png" alt="High quality products 11">
+
+            <div class="second-layout-message" id="slmsg">
+                <p class="second-layout-m1">
+                    Nenhuma mensagem encontrada
+                </p>
+                <p class="second-layout-m2">
+                    Digite um texto que você deseja criptografar ou descriptografar.
+                </p>
+            </div>
+
+            <button id="btncopy" onclick="copy()">Copiar</button>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        Desenvolvido por Gabriel
+    </footer>
+
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
